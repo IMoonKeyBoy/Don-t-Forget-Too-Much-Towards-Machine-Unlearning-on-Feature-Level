@@ -60,7 +60,7 @@ Python multi_ae_adv_finetuning_train_8.0_1.0_part_data_new.py
 ```
 It should be in Project->Feature unlearning->Group: Finetuning Process Multi Labels task part->Bald_Mouth_Slightly_Open_Pointy_Nose_10.0_1.0
 ```
-## 4. For Single Feature Unlearning without label (Our Setting in Section 5.1)
+## 4. For Single Feature Unlearning without label (Our Setting 3 in Section 5.1)
 
 First, we should train one model to identify different feature, this step is based on the code in [Github](https://github.com/ada-shen/icCNN), which is Shen et al. work in [Interpretable Compositional Convolutional Neural Networks](https://www.ijcai.org/proceedings/2021/0409.pdf).
 
