@@ -157,8 +157,8 @@ if __name__ == '__main__':
     parser.add_argument('-show_num', type=int, default=8)
     parser.add_argument('-model', default="vgg", type=str)
     parser.add_argument('-animal', default="celeba", type=str)
-    parser.add_argument('-fmap_path', default="/home/hengxu/Data/PycharmWorkspace/Technical Paper 3/icCNN-main-new/icCNN/basic_fmap/resnet_iccnn/18_resnet_bird_iccnn.npz", type=str)
-    parser.add_argument('-loss_path', default="/home/hengxu/Data/PycharmWorkspace/Technical Paper 3/icCNN-main-new/icCNN/resnet/18_resnet_bird_iccnn/loss_2500.npz", type=str)
+    parser.add_argument('-fmap_path', default="/home/hengxu/Data/PycharmWorkspace/Technical Paper 3/icCNN-main-new/icCNN/basic_fmap/vgg_iccnn_original_135/13_vgg_celeb_iccnn.npz", type=str)
+    parser.add_argument('-loss_path', default="/home/hengxu/Data/PycharmWorkspace/Technical Paper 3/icCNN-main-new/icCNN/vgg/13_vgg_celeb_vgg_iccnn_135/loss_1200.npz", type=str)
     parser.add_argument('-folder_name', default=None, type=str)
     args = parser.parse_args()
     # fixed

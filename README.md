@@ -120,7 +120,7 @@ DATANAME = 'celeb'  #
 NUM_CLASSES = 80 if DATANAME == 'celeb' else 2
 
 center_num = #Optimal number of clusters
-pretrain_model = "~/18_resnet_celeb_$center_num/model_200.pth"
+pretrain_model = "~/18_resnet_celeb_$center_num/model_2500.pth"
 ```
 
 and run
@@ -128,14 +128,14 @@ and run
 python resnet_iccnn_train_celeba_enhanced.py
 ```
 
-Then show the feature map and select one feature_map to used as filter
+Then show the feature map and select one feature_map to be used as filter
 ```
 draw_fmap_show_celeba.py
 ```
 
 ### 4.2.4 Unlearning based on the identify model
 
-Then replace the corresponding value in no_label_single_finetune_model_mouth.py 
+Replace the corresponding value in no_label_single_finetune_model_mouth.py 
 ```
             for index_number in range(output_images.shape[0]):  # for each image
                 fig = output_images[index_number][$select_feature_map_index]  #our value is 47, you should choose you own value
