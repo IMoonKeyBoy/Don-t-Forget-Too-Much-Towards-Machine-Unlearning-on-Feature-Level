@@ -2,6 +2,8 @@
 
 A Python implementation of [Don’t Forget Too Much: Towards Machine Unlearning on Feature Level] Any question you can contact my through post issues in this repository.
 
+![overview.png](overview.png)
+
 ## Abstract:
 
 Machine unlearning enables pre-trained models to remove the effect of certain portions of training data. Previous machine unlearning schemes have mainly focused on unlearning a cluster of instances or all instances belonging to a specific class. These types of unlearning might have a significant impact on the model utility; and they may be inadequate for situations where we only need to unlearn features within instances, rather than the whole instances. Due to the different granularity, current unlearning methods can hardly achieve feature-level unlearning. To address the challenges of utility and granularity, we propose a refined granularity unlearning scheme referred to as “feature unlearning”. We first explore two distinct scenarios based on whether the annotation information about the features is given: feature unlearning with known annotations and feature unlearning without annotations. Regarding unlearning with known annotations, we propose an adversarial learning approach to automatically remove effects about features. For unlearning without annotations, we initially enable the output of one model’s layer to identify different pattern features using model interpretability techniques. We proceed to filter features from instances based on these outputs with identifying ability. So that we can remove the feature impact based on filtered instances and the fine-tuning process. The effectiveness of our proposed approach is demonstrated through experiments involving diverse models on various datasets in different scenarios.
