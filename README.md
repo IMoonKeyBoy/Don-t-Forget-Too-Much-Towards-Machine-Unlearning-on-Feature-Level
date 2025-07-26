@@ -58,7 +58,7 @@ It should be in Project->Feature unlearning->Group: Finetuning Process Multi Lab
 
 First, we should train one model to identify different feature, this step is based on the code in [Github](https://github.com/ada-shen/icCNN), which is Shen et al. work in [Interpretable Compositional Convolutional Neural Networks](https://www.ijcai.org/proceedings/2021/0409.pdf).
 
-Before using our code, I hope you can try debugging this original code. Unfortunately, the original code repository is quite difficult to understand, so we wrote a tutorial, which you can find here.
+Before using our code, I hope you can try debugging this original code. Unfortunately, the original code repository is quite difficult to understand, so we wrote a tutorial, which you can find [Tutorial.docx](Tutorial.docx).
 
 Next, let's introduce how to run our enhanced scheme.
 
