@@ -39,7 +39,7 @@ center_num = 33
 log_path = './icCNN/resnet/'
 dataset = '%s_resnet_%s_iccnn_%s' % (LAYERS, DATANAME, center_num)
 log_path = log_path + dataset + '/'
-pretrain_model = "/home/hengxu/Data/PycharmWorkspace/Technical Paper 3/icCNN-main-new/icCNN/resnet/18_resnet_celeb_ori/18_resnet_celeb_ori/model_200.pth"
+pretrain_model = "./icCNN/resnet/18_resnet_celeb_ori/18_resnet_celeb_ori/model_200.pth"
 
 BATCHSIZE = 128
 LR = 0.00001
@@ -578,7 +578,7 @@ def get_feature():
     acc = test(net, testset_test, NUM_CLASSES)
     print(acc)
 
-    loss = np.load("/home/hengxu/Data/PycharmWorkspace/Technical Paper 3/icCNN-main-new/icCNN/resnet/18_resnet_bird_iccnn/loss_2500.npz")
+    loss = np.load("./icCNN/resnet/18_resnet_bird_iccnn/loss_2500.npz")
     gt = loss['gt'][-1]  # show channel id of different groups
     cluster_label = get_cluster(gt)
     print('groups and channels', cluster_label)

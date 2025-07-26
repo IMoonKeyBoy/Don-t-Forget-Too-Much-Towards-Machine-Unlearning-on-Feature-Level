@@ -33,7 +33,7 @@ acc_path = './icCNN/basic_fmap/resnet/acc/'
 log_path = './icCNN/resnet/'
 dataset = '%s_resnet_%s_ori' % (LAYERS, DATANAME)
 log_path = log_path + dataset + '/'
-pretrain_model = "/home/hengxu/Data/PycharmWorkspace/Technical Paper 3/icCNN-main-new/icCNN/resnet/18_resnet_bird_ori/18_resnet_bird_ori/model_200.pth"
+pretrain_model = "./icCNN/resnet/18_resnet_bird_ori/18_resnet_bird_ori/model_200.pth"
 
 BATCHSIZE = 256
 LR = 0.000001
