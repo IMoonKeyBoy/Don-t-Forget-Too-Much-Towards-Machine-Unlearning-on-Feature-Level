@@ -1,6 +1,6 @@
 # Don’t Forget Too Much: Towards Machine Unlearning on Feature Level
 
-A Python implementation of [Don’t Forget Too Much: Towards Machine Unlearning on Feature Level] Any question you can contact my through post issues in this repository.
+This repository contains a Python implementation of [Don’t Forget Too Much: Towards Machine Unlearning on the Feature Level]. If you have any questions, feel free to open an issue in the repository.
 
 ![overview.png](overview.png)
 

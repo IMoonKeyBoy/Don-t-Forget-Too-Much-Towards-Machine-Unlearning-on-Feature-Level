@@ -22,7 +22,7 @@ from load_utils import load_state_dict_from_url
 from newPad2d import newPad2d
 from utils.utils import Cluster_loss
 
-IS_TRAIN = 1  # 0/1
+IS_TRAIN = 0  # 0/1
 LAYERS = '18'
 DATANAME = 'celeb'  #
 NUM_CLASSES = 80 if DATANAME == 'celeb' else 2
@@ -37,7 +37,7 @@ acc_path = './icCNN/basic_fmap/resnet_iccnn_celeba_original/acc/'
 log_path = './icCNN/resnet/'
 dataset = '%s_resnet_%s_iccnn_original' % (LAYERS, DATANAME)
 log_path = log_path + dataset + '/'
-pretrain_model = "./icCNN/resnet/18_resnet_celeb_iccnn_original/model_2400.pth"
+pretrain_model = "./icCNN/resnet/18_resnet_celeb_ori/18_resnet_celeb_ori/model_200.pth"
 
 BATCHSIZE = 128
 LR = 0.00001
