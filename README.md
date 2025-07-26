@@ -10,14 +10,15 @@ Machine unlearning enables pre-trained models to remove the effect of certain po
 
 # How to use
 
-## 1. Create and Acrtivate the env
+## 1.1 Create and Activate the env
 
 ```
 conda env create -f featureunlearning.yaml
 conda activate featureunlearning
 ```
 
-## Preparing Dataset, Please check [Github](https://github.com/ada-shen/icCNN) and read the [Tutorial.docx](Tutorial.docx).
+## 1.2 Preparing Dataset
+Please check [Github](https://github.com/ada-shen/icCNN) and read the [Tutorial.docx](Tutorial.docx). We also share our dataset in [Google Drive](https://drive.google.com/file/d/1Pae4TIIgNXKqsUphYlRWOmz2vfy_vGzY/view?usp=sharing)
 
 
 ## 2. For Single Feature Unlearning (Our Setting 1 in Section 5.1)
